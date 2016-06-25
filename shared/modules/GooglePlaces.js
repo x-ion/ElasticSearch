@@ -24,7 +24,6 @@
 
         //Service that add content to infowindow
         google.maps.event.addListener(marker, 'click', function() {
-          var cool = 'nigger!';
         //infowindow.setContent(place.geometry);
           infowindow.setContent('<div>test</div>');
           infowindow.open(map, this);

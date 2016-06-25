@@ -43,6 +43,7 @@ button{
 }
 
 .container {
+	display: none;
 	min-height: 600px;
 	width: 100%;
 	padding: 15px;
@@ -324,6 +325,7 @@ button{
 }
 
 .tweet-time{
+	color: #aaa;
 	margin-top: 8.5px;
 	font-size: .8em;
 }
@@ -335,12 +337,13 @@ button{
 }
 
 .tweet-wrapper{
+	vertical-align: top;
 	display: inline-block;
 	width: 33.3%;
 }
 
 .tweet-showbox{
-	font-weight: 300;
+
 	background-color: #fff;
 	margin: 20px;
 	border: 1px #ccc solid;

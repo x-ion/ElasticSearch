@@ -12,24 +12,7 @@ class Twitsection extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {};
-    this.state.tweets = [
-      {
-        id: 111,
-        text: 'asdfasdf'
-      },
-      {
-        id: 222,
-        text: "asdfas"
-      },
-      {
-        id: 333,
-        text: "asdfasfd"
-      },
-      {
-        id: 333,
-        text: "asdfasfd"
-      }
-    ];
+    this.state.tweets = [];
   }
 
   fetchtweets(){
@@ -44,6 +27,10 @@ class Twitsection extends Component {
   }
 
   _handleSubmit(event) {
+
+    $('#btn').click(function(){
+      $('.container').show();
+    });
     event.preventDefault();
     let cleanData;
     let city = this._city.value;
